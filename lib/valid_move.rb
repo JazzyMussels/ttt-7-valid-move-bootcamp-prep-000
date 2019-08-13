@@ -2,6 +2,7 @@
 
 def valid_move?(board, index)
   !position_taken?(board, index)
+  nil
 end
 
 
