@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  !position_taken?(board, index) || nil if !board[index].to_i.between?(0,8)
+  return true if !position_taken?(board, index) 
 end
 
 
