@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  return !position_taken?(board, index) || nil
+  !position_taken?(board, index) || nil
   
 end
 
